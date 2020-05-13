@@ -3,7 +3,7 @@
 from PIL import Image, ImageGrab
 from pathlib import Path
 import pytesseract as tess
-import time
+# (optinal) import time (will highly needed if you want proceed the automation into a complex one)
 
 tess.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
